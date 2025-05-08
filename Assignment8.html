@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            margin: 20px;
+        }
+
+        h1, h2, h3 {
+            margin: 5px;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px #999;
+        }
+
+        th {
+            font-size: 20px;
+            background-color: #004080;
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e6f2ff;
+        }
+
+        tr:hover {
+            background-color: #d0e4f7;
+        }
+
+        .total-row td {
+            background-color: #004080;
+            color: white;
+            font-weight: bold;
+        }
+
+        hr {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Assignment No. 8</h1>
+        <hr>
+        <h2>Result</h2>
+    </center>
+
+    <h3>Name = Kedar Tarlekar</h3>
+    <h3>Roll No. = 92</h3>
+
+    <table>
+        <tr>
+            <th>Sr No.</th>
+            <th>Subject</th>
+            <th>Obt. Marks</th>
+            <th>Result</th>
+        </tr>
+
+        <tr><td>1</td><td>Discrete Mathematical Structure</td>
+            <td>83</td>
+            <td><b>PASS</b></td></tr>
+        <tr><td>2</td><td>Computer Network</td>
+            <td>80</td><td>
+                <b>PASS</b></td></tr>
+        <tr><td>3</td><td>Object Oriented Concepts</td>
+            <td>90</td><td>
+                <b>PASS</b></td></tr>
+        <tr><td>4</td><td>Community Engagement Project</td>
+            <td>81</td><td><b>PASS</b></td></tr>
+        <tr><td>5</td><td>Web Mining</td><td>89</td><td><b>PASS</b></td></tr>
+        <tr><td>6</td><td>Responsible use of Technology in Animation</td><td>94</td><td><b>PASS</b></td></tr>
+        <tr><td>7</td><td>Fundamentals of Python Programming</td><td>96</td><td><b>PASS</b></td></tr>
+        <tr><td>8</td><td>Intellectual Property Rights</td><td>83</td><td><b>PASS</b></td></tr>
+
+        <tr class="total-row">
+            <td></td>
+            <td colspan="3">Total = 696 / 800</td>
+        </tr>
+    </table>
+</body>
+</html>

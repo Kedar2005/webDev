@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 20px;
+        }
+
+        h2, h1 {
+            color: #333;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 350px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center-text">
+        <h2>Assignment No. 9</h2>
+        <p><b>Name:</b> Kedar Tarlekar</p>
+        <p><b>Rollno.</b> 92</p>
+    </div>
+    
+    <h1 class="center-text">Employee Registration</h1>
+
+    <form>
+        <label>First Name:</label>
+        <input type="text">
+
+        <label>Last Name:</label>
+        <input type="text">
+
+        <label>Email:</label>
+        <input type="email">
+
+        <label>Gender:</label><br>
+        <input type="radio" name="Gender" value="Male"> Male<br>
+        <input type="radio" name="Gender" value="Female"> Female<br><br>
+
+        <label>Qualification:</label>
+        <select>
+            <option>Select</option>
+            <option>B.Tech</option>
+            <option>M.Tech</option>
+        </select>
+
+        <label>Phone Number:</label>
+        <input type="number">
+
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
